@@ -2,10 +2,10 @@
   "ProjectName": "AppAvailability",
   "ProjectGuid": "147ed100-c481-40c4-b5e7-c84eb6d762d7",
   "projectVersion": 1,
-  "AppIdentifier": "com.telerik.AppAvailability",
+  "AppIdentifier": "com.telerik.plugindemo.appavailability",
   "DisplayName": "AppAvailability",
-  "Author": "",
-  "Description": "",
+  "Author": "Telerik",
+  "Description": "AppAvailability",
   "BundleVersion": "1.0",
   "AndroidVersionCode": "1",
   "iOSDeviceFamily": [
@@ -14,7 +14,7 @@
   ],
   "iOSBackgroundMode": [],
   "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
-  "FrameworkVersion": "3.5.0",
+  "FrameworkVersion": "3.7.0",
   "AndroidPermissions": [],
   "DeviceOrientations": [
     "Portrait",
@@ -36,5 +36,11 @@
     "ID_RESOLUTION_WVGA",
     "ID_RESOLUTION_WXGA",
     "ID_RESOLUTION_HD720P"
+  ],
+  "CorePlugins": [
+    "org.apache.cordova.console",
+    "org.apache.cordova.device",
+    "org.apache.cordova.splashscreen",
+    "org.apache.cordova.statusbar"
   ]
 }
